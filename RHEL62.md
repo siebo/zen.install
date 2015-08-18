@@ -7,7 +7,6 @@ yum install python27 libjpeg-devel libjpeg-turbo zlib-devel bzip2-devel openssl-
 useradd zope
 yum install mod_ssl openssl
 cd /etc/httpd/conf.d/
-openssl req -new -key ca.key -out ca.csr
 openssl genrsa -out ca.key 2048
 openssl req -new -key ca.key -out ca.csr
 openssl x509 -req -days 365 -in ca.csr -signkey ca.key -out ca.crt
