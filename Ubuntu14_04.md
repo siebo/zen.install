@@ -27,4 +27,5 @@ cd Python-2.7.10
 ./configure --prefix=/home/zope/pythons/python-2.7.10 
 make 
 make altinstall
+ln -s /home/zope/pythons/python-2.7.10/bin/python2.7.10 /home/zope/pythons/python-2.7.10/bin/python
 ```
