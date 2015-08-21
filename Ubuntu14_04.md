@@ -14,6 +14,8 @@ apt-get install wv xpdf-utils
 apt-get install pkg-config libpcre3 libpcre3-dev
 apt-get install libxml2-dev libxslt1-dev
 apt-get install libgeos-c1 libgeos-dev
+a2enmod rewrite proxy proxy_http
+/etc/init.d/apache2 restart
 ```
 
 ## Zope user installs
