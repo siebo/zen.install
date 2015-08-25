@@ -3,7 +3,7 @@
 ## Root user installs
 
 ```
-yum install python27 libjpeg-devel libjpeg-turbo zlib-devel bzip2-devel openssl-devel xz-libs wget zlib-devel bzip2-devel patch openssl-devel libjpeg-devel libxslt-devel readline-devel make which python27.x86_64 python27-python-devel.x86_64 screen gcc g++ make tar gzip emacs svn git httpd openssl-devel libdb-devel cyrus-sasl-devel
+yum install python27 libjpeg-devel libjpeg-turbo zlib-devel bzip2-devel openssl-devel xz-libs wget zlib-devel bzip2-devel patch openssl-devel libjpeg-devel libxslt-devel readline-devel make which python27.x86_64 python27-python-devel.x86_64 screen gcc g++ make tar gzip emacs svn git httpd openssl-devel libdb-devel cyrus-sasl-devel libpcre
 useradd zope
 yum install mod_ssl openssl
 cd /etc/httpd/conf.d/
