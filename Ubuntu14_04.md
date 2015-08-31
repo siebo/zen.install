@@ -5,7 +5,7 @@
 ```
 apt-get update
 apt-get dist-upgrade
-apt-get install libreadline5 libreadline5-dev zlib1g zlib1g-dev libjpeg62 libjpeg62-dev libssl0.9.8 \
+apt-get install libreadline-gplv2-dev zlib1g zlib1g-dev libjpeg62 libjpeg62-dev libssl0.9.8 \
 libssl-dev build-essential subversion cron groff-base wget lynx apache2
 
 apt-get install postfix
