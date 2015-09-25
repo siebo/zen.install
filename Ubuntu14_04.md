@@ -60,7 +60,7 @@ ln -s /home/zope/pythons/python-2.7.10/bin/python2.7.10 /home/zope/pythons/pytho
 
 ## Make our new python the default 
 ```
-emacs ~/.profile
+emacs ~/.bash_profile
 ```
 
 
