@@ -57,3 +57,10 @@ make
 make altinstall
 ln -s /home/zope/pythons/python-2.7.10/bin/python2.7.10 /home/zope/pythons/python-2.7.10/bin/python
 ```
+
+## Make our new python the default 
+```
+emacs ~/.profile
+```
+
+
