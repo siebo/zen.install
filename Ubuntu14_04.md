@@ -38,6 +38,12 @@ useradd -d /home/zope -m zope
 passwd zope
 ```
 
+## Changing the default shell for the zope user
+
+```
+chsh -s /bin/bash zope
+```
+
 ## Zope user installs
 
 ```
