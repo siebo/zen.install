@@ -32,6 +32,11 @@ apt-get install emacs
 apt-get install postfix
 ```
 
+## Adding a user under which to run zope
+```
+useradd -d /home/zope -m zope
+passwd zope
+```
 
 ## Zope user installs
 
