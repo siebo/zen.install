@@ -63,4 +63,7 @@ ln -s /home/zope/pythons/python-2.7.10/bin/python2.7.10 /home/zope/pythons/pytho
 emacs ~/.bash_profile
 ```
 
-
+## There we add:
+```
+export PATH=/home/zope/pythons/python-2.7.10/bin:$PATH
+```
