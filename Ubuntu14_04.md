@@ -6,7 +6,8 @@ apt-get update
 apt-get dist-upgrade
 apt-get install libreadline-gplv2-dev zlib1g zlib1g-dev libjpeg62 \
 libjpeg62-dev libssl0.9.8  libssl-dev build-essential subversion \
-cron groff-base wget lynx apache2 wv xpdf-utils libxml2-dev libxslt1-dev 
+cron groff-base wget lynx apache2 wv xpdf-utils libxml2-dev \
+libxslt1-dev python-dev
 
 a2enmod rewrite proxy proxy_http
 /etc/init.d/apache2 restart
