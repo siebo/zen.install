@@ -10,7 +10,7 @@ cron groff-base wget lynx apache2 wv xpdf-utils libxml2-dev \
 libxslt1-dev python-dev
 
 a2enmod rewrite proxy proxy_http
-/etc/init.d/apache2 restart
+service apache2 restart
 ```
 
 ## If you're running Varnish
